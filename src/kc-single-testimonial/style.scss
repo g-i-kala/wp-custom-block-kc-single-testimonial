@@ -1,0 +1,54 @@
+.kc-single-testimonial {
+	display: grid;
+	gap: 1rem;
+	padding: 1.5rem;
+	border: 1px solid var(--wp--preset--color--muted);
+	border-radius: 1rem;
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--contrast);
+	box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+	text-align: center;
+}
+
+.kc-single-testimonial__media {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.kc-single-testimonial__image {
+	display: block;
+	width: 96px;
+	height: 96px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.kc-single-testimonial__quote {
+	font-size: var(--wp--preset--font-size--lg);
+	line-height: 1.6;
+	font-style: italic;
+	position: relative;
+	padding-inline: 1rem;
+	border-left: 3px solid var(--wp--preset--color--primary);
+	text-align: left;
+}
+
+.kc-single-testimonial__meta {
+	display: grid;
+	gap: 0.25rem;
+	justify-items: center;
+}
+
+.kc-single-testimonial__name {
+	margin: 0;
+	font-family: var(--wp--preset--font-family--heading);
+	font-size: var(--wp--preset--font-size--lg);
+	line-height: 1.2;
+}
+
+.kc-single-testimonial__role {
+	margin: 0;
+	font-size: var(--wp--preset--font-size--sm);
+	opacity: 0.8;
+}
