@@ -25,7 +25,7 @@
 }
 
 .kc-single-testimonial__quote {
-	font-size: var(--wp--preset--font-size--lg);
+	font-size: var(--wp--preset--font-size--base);
 	line-height: 1.6;
 	font-style: italic;
 	position: relative;
@@ -43,7 +43,7 @@
 .kc-single-testimonial__name {
 	margin: 0;
 	font-family: var(--wp--preset--font-family--heading);
-	font-size: var(--wp--preset--font-size--lg);
+	font-size: var(--wp--preset--font-size--base);
 	line-height: 1.2;
 }
 
